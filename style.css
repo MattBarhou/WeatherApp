@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(mount.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+.headers {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headers h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    margin-bottom: 0;
+}
+
+.headers p {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    margin-top: 20px;
+}
+
+.weatherInfo {
+    visibility: hidden;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
